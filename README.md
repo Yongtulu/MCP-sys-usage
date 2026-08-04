@@ -38,7 +38,7 @@ The interface is split into two panels:
 
 ```
 mcp-sys-usage/
-├── mcp-server/
+├── mcp-server/          # MCP Server
 │   ├── server.py              # MCP Server entry point (SSE transport)
 │   ├── tools/
 │   │   ├── cpu.py             # CPU usage tool
@@ -47,7 +47,7 @@ mcp-sys-usage/
 │   │   └── process.py         # Process list tool
 │   └── requirements.txt
 │
-├── frontend/
+├── frontend/            # MCP Client
 │   ├── app.py                 # Streamlit main app
 │   ├── mcp_client.py          # MCP Server call wrapper
 │   ├── ollama_client.py       # Ollama API wrapper
